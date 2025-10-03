@@ -17,8 +17,8 @@
           <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
             Quick start
           </a>
-          <a href="{{ 'Getting started/' | url }}" title="Material for MkDocs Insiders" class="md-button">
-            Getting started
+          <a href="{{ config.repo_url }}" title="GitHub repository" class="md-button md-button--secondary" target="_blank" rel="noopener">
+            GitHub repository
           </a>
         </div>
       </div>
@@ -27,3 +27,4 @@
 {% endblock %}
 {% block content %}{% endblock %}
 {% block footer %}{% endblock %}
+
