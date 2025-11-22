@@ -153,6 +153,7 @@ markdown_extensions:
       repo: mkdocs-material
   - pymdownx.mark
   - pymdownx.smartsymbols
+  - pymdownx.blocks.caption
   - pymdownx.snippets:
       auto_append:
         - includes/mkdocs.md
@@ -258,6 +259,12 @@ nav:
   #     - setup/extensions/index.md
   #     - Python Markdown: setup/extensions/python-markdown.md
   #     - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
+  - HackSmarter-Labs:
+      - HackSmarter-Labs/welcome.md
+      - HackSmarter-Labs/slayer.md
+      - HackSmarter-Labs/arasaka.md
+      - HackSmarter-Labs/ascension.md
+
   - PwnLabs:
        - PwnLabs/index.md
   #   - Changing the colors: setup/changing-the-colors.md
