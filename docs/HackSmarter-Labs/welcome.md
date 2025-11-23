@@ -1,11 +1,17 @@
 # Welcome
-This is a writeup for the Hacksmarter Lab machine Bastion.
+
+![welcome](../../assets/images/welcome.png)
+
+```
+**`This is a writeup for the Hacksmarter Lab machine: Welcome`**
 
 - IP Address: ``10.1.93.173``
 - Difficulty: Easy
 - Operating System: Windows
+- Assumed Breach Creds: e.hills:Il0vemyj0b2025!
+```
 
-# Enumeration Using Nmap
+## Enumeration Using Nmap
 ```bash
 nmap -A 10.1.93.173 --unprivilege -Pn
 Starting Nmap 7.98 ( https://nmap.org ) at 2025-11-13 15:34 -0800
@@ -135,7 +141,7 @@ Session completed.
 
 On the Human resource document, there is a default password every new employee gets after on-boarding. This password would later be changed. Let’s see whether any of the users changed his password.
 
-![alt text](image.png)
+![alt text](../../assets/images/welcome-2.png)
 
 I will list all users using nxc and cut out only the users. This users would be stored in a file called users.txt
 
@@ -293,7 +299,7 @@ A.HARRIS has Genric.All over I.PARK user which would enable us to do a targetedK
 
 [targetedKerberoast](https://github.com/ShutdownRepo/targetedKerberoast)
 
-![alt text](image-1.png)
+![alt text](../../assets/images/welcome-1.png)
 
 ### Exploit: TargetedKerberoast
 ```shell
@@ -352,6 +358,8 @@ RDP         10.1.93.173     3389   DC01             [+] WELCOME.local\i.park:Val
 ```
 
 Now that I have compromised **`i.park`**, what else can I do. Since Park is a member of the **`HelpDesk group`**, he can force a password change on both **`SVC_CA`** and **`SVC_WEB`**. Guess my next mark, you got ir SVC_CA.
+
+## Privilege Escalation
 
 ### Certipy-ad
 
