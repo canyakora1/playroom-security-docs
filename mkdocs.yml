@@ -54,7 +54,7 @@ theme:
     - navigation.indexes
     # - navigation.instant
     # - navigation.instant.prefetch
-    # - navigation.instant.progress
+    - navigation.instant.progress
     # - navigation.prune
     - navigation.sections
     - navigation.tabs
@@ -112,7 +112,7 @@ extra:
     deprecated: Deprecated
   analytics:
     provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
+    property: !ENV GOOGLE_ANALYTICS_ID
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/canyakora1
@@ -178,6 +178,7 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
+
   - Getting started:
     - OSI Model: osi-model.md
     - Active Directory: active-directory.md
@@ -189,6 +190,62 @@ nav:
     - Home Lab - Proxmox: proxmox-home-lab.md
     - Home Lab - VMWare: vmware-home-lab.md
     - Alternatives: alternatives.md
+
+  - Pentesting Notes:
+    - Pentesting-Notes/index.md
+    - Windows:
+      - "Pentesting":
+        - Pentesting-Notes/Windows/Pentesting/reconnaissance.md
+        - Pentesting-Notes/Windows/Pentesting/enumeration.md
+        - Pentesting-Notes/Windows/Pentesting/SMB-Enumeration.md
+        - Pentesting-Notes/Windows/Pentesting/LDAP.md
+        - Pentesting-Notes/Windows/Pentesting/MSSQL.md
+        - Pentesting-Notes/Windows/Pentesting/RDP.md
+        - Pentesting-Notes/Windows/Pentesting/kerberos.md
+        - Pentesting-Notes/Windows/Pentesting/LLMNR-poisoning.md
+        - Pentesting-Notes/Windows/Pentesting/Privilege-Escalation.md
+        - Pentesting-Notes/Windows/Pentesting/Post-Exploitation.md   
+        - Pentesting-Notes/Windows/Pentesting/Persistence.md
+        - Pentesting-Notes/Windows/Pentesting/bloodhound.md
+        - Pentesting-Notes/Windows/Pentesting/Command-and-Control.md
+        - Pentesting-Notes/Windows/Pentesting/Certificate-Authority.md
+        - Pentesting-Notes/Windows/Pentesting/Delegation.md
+    - Linux:
+      - "Pentesting":
+        - Pentesting-Notes/Linux/Pentesting/reconnaissance.md
+        - Pentesting-Notes/Linux/Pentesting/enumeration.md
+        - Pentesting-Notes/Linux/Pentesting/FTP.md
+        - Pentesting-Notes/Linux/Pentesting/LDAP.md
+        - Pentesting-Notes/Linux/Pentesting/MySQL.md
+        - Pentesting-Notes/Linux/Pentesting/SSH.md
+        - Pentesting-Notes/Linux/Pentesting/Privilege-Escalation.md
+        - Pentesting-Notes/Linux/Pentesting/Post-Exploitation.md   
+        - Pentesting-Notes/Linux/Pentesting/Persistence.md
+        - Pentesting-Notes/Linux/Pentesting/Command-and-Control.md
+    
+    - Cloud:
+      - "AWS":
+        - Pentesting-Notes/Cloud/AWS/reconnaissance.md
+        - Pentesting-Notes/Cloud/AWS/enumeration.md
+        - Pentesting-Notes/Cloud/AWS/privilege-escalation.md
+        - Pentesting-Notes/Cloud/AWS/post-exploitation.md
+        - Pentesting-Notes/Cloud/AWS/persistence.md
+      - "Azure":
+        - Pentesting-Notes/Cloud/Azure/reconnaissance.md
+        - Pentesting-Notes/Cloud/Azure/enumeration.md
+        - Pentesting-Notes/Cloud/Azure/privilege-escalation.md
+        - Pentesting-Notes/Cloud/Azure/post-exploitation.md
+        - Pentesting-Notes/Cloud/Azure/persistence.md
+      - "GCP":
+        - Pentesting-Notes/Cloud/GCP/reconnaissance.md
+        - Pentesting-Notes/Cloud/GCP/enumeration.md
+        - Pentesting-Notes/Cloud/GCP/privilege-escalation.md
+        - Pentesting-Notes/Cloud/GCP/post-exploitation.md
+        - Pentesting-Notes/Cloud/GCP/persistence.md
+
+
+
+
   - HTB:
     - htb/index.md
     - Labs:
