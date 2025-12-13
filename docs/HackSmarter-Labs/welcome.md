@@ -1,6 +1,6 @@
 # Welcome
 
-![welcome](../../assets/images/welcome.png)
+![welcome](../assets/images/welcome.png)
 
 ```
 **`This is a writeup for the Hacksmarter Lab machine: Welcome`**
@@ -141,7 +141,7 @@ Session completed.
 
 On the Human resource document, there is a default password every new employee gets after on-boarding. This password would later be changed. Let’s see whether any of the users changed his password.
 
-![alt text](../../assets/images/welcome-2.png)
+![alt text](../assets/images/welcome-2.png)
 
 I will list all users using nxc and cut out only the users. This users would be stored in a file called users.txt
 
@@ -299,7 +299,7 @@ A.HARRIS has Genric.All over I.PARK user which would enable us to do a targetedK
 
 [targetedKerberoast](https://github.com/ShutdownRepo/targetedKerberoast)
 
-![alt text](../../assets/images/welcome-1.png)
+![alt text](../assets/images/welcome-1.png)
 
 ### Exploit: TargetedKerberoast
 ```shell

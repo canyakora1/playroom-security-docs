@@ -95,6 +95,7 @@ theme:
 # Plugins
 plugins:
   - blog
+  - glightbox
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
@@ -127,6 +128,8 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  extra_css:
+  - stylesheets/extra.css
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/canyakora1
@@ -198,11 +201,6 @@ nav:
   - Getting started:
     - OSI Model: osi-model.md
     - Active Directory: active-directory.md
-    - Cyber Kill Chain: cyber-kill-chain.md
-    - Mitre Attack Framework: mitre-attack.md
-    - C2 Framework: c2.md
-    - Network Attacks: network-attacks.md
-    - Web-exploitations: web-exploitation.md
     - Home Lab - Proxmox: proxmox-home-lab.md
     - Home Lab - VMWare: vmware-home-lab.md
     - Alternatives: alternatives.md

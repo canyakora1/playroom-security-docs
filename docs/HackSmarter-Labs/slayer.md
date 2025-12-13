@@ -1,5 +1,5 @@
 # Slayer
-![slayer](../../assets/images/slayer.png)
+![slayer](../assets/images/slayer.png)
 
 ??? info
     Author: Dcyberguy
@@ -97,9 +97,9 @@ I will use the Remote Desktop Client
 
 Looking at `Powershell history`, which is the first place attacker look, you will notice the Administrator ran a command in the Powershell terminal and included his password.
 
-![slayer1](../../assets/images/slayer1.png)
+![slayer1](../assets/images/slayer1.png)
 
 
 You can now access the Administrator’s Desktop and get the root flag
 
-![slayer2](../../assets/images/slayer2.png)
+![slayer2](../assets/images/slayer2.png)
