@@ -308,6 +308,13 @@ nav:
   #     - Caching: plugins/requirements/caching.md
   - GOAD:
       - GOAD/index.md
+      - GOAD/installation.md
+      - GOAD/enumeration.md
+      - GOAD/sevenKingdoms.md
+      - GOAD/North.md
+      - GOAD/castleBlack.md
+      - GOAD/braavos.md
+      - GOAD/meereen.md
   #   - Changing the colors: setup/changing-the-colors.md
   #   - Changing the fonts: setup/changing-the-fonts.md
   #   - Changing the language: setup/changing-the-language.md
@@ -331,6 +338,7 @@ nav:
   #     - Python Markdown: setup/extensions/python-markdown.md
   #     - Python Markdown Extensions: setup/extensions/python-markdown-extensions.md
   - HackSmarter-Labs:
+      - HackSmarter-Labs/index.md
       - HackSmarter-Labs/welcome.md
       - HackSmarter-Labs/slayer.md
       - HackSmarter-Labs/arasaka.md
