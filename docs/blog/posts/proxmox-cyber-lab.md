@@ -1,8 +1,21 @@
+---
+date:
+  created: 2025-12-10
+  updated: 2025-12-18
+authors:
+  - dcyberguy
+  - playroom
+category:
+  - Home-Lab
+---
+
+
+
 # Building a Proxmox Cybersecurity Home Lab
 
 This guide provides step-by-step instructions to set up a Proxmox home lab tailored for cybersecurity enthusiasts. It covers the installation of Proxmox VE, configuration of virtual machines, and best practices for creating a secure and efficient lab environment.
 
-![proxmox](./assets/images/home-lab.png)
+![proxmox](../../assets/images/home-lab.png)
 
 ## Table of Contents
 - [Introduction](#introduction)

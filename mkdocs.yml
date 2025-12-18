@@ -197,14 +197,9 @@ not_in_nav: |
 # Page tree
 nav:
   - Home: index.md
-
-  - Getting started:
-    - OSI Model: osi-model.md
-    - Active Directory: active-directory.md
-    - Home Lab - Proxmox: proxmox-home-lab.md
-    - Home Lab - VMWare: vmware-home-lab.md
-    - Alternatives: alternatives.md
-
+  - blog:
+    - blog/index.md
+    
   - Pentesting Notes:
     - Pentesting-Notes/index.md
     - Windows:

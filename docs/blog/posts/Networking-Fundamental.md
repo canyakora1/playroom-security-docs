@@ -1,5 +1,17 @@
+---
+date:
+  created: 2024-06-11
+  updated: 2024-08-01
+authors:
+  - dcyberguy
+---
+
+
+
 ## OSI Model: The Seven Layers of Networking
 The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and implement network protocols in seven distinct layers. Each layer serves a specific function and communicates with the layers directly above and below it. Here are the seven layers of the OSI model: 
+
+<!-- more -->
 
 ??? note "**Physical Layer (Layer 1)**" 
     This layer is responsible for the physical connection between devices, including cables, switches, and other hardware. It deals with the transmission and reception of raw bit streams over a physical medium.
@@ -24,6 +36,6 @@ The OSI (Open Systems Interconnection) model is a conceptual framework used to u
 Understanding the OSI model is essential for network design, troubleshooting, and security, as it provides a structured approach to analyzing and managing network interactions.   
 
 # Diagram
-![os-model](./assets/images/osi-model.jpg)
+![os-model](../../assets/images/osi-model.jpg)
 
 

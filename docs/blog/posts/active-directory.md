@@ -1,12 +1,25 @@
+---
+date:
+  created: 2024-10-07
+  updated: 2024-10-10
+authors:
+  - dcyberguy
+  - playroom
+---
+
 # Active Directory Attacks
 
 This section covers various attacks that can be performed against Active Directory (AD) environments. AD is a widely used directory service in Windows-based networks, and understanding these attacks is crucial for securing such environments.
+
 ## Table of Contents
 - [Introduction to Active Directory Attacks](#introduction-to-active-directory-attacks)
 - [Common Active Directory Attacks](#common-active-directory-attacks)
 - [Detection and Mitigation Strategies](#detection-and-mitigation-strategies)
 - [Conclusion](#conclusion)
 - [References](#references)
+
+
+<!-- more -->
 
 ## Introduction to Active Directory Attacks
 Active Directory (AD) is a critical component of many enterprise networks, providing authentication and authorization services. Due to its central role, AD is a prime target for attackers seeking to gain unauthorized access or escalate privileges within a network. This document explores common AD attacks, their methodologies, and strategies for detection and mitigation.
