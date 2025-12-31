@@ -27,6 +27,8 @@ This guide provides step-by-step instructions to set up a Proxmox home lab tailo
 - [Security Best Practices](#security-best-practices)
 - [Conclusion](#conclusion)
 
+<!-- more -->
+
 ## Introduction
 A Proxmox home lab provides a versatile platform for learning and experimenting with various cybersecurity tools and techniques. By leveraging virtualization, users can create isolated environments to test vulnerabilities, practice penetration testing, and simulate attacks without risking their primary systems.   
 ## Prerequisites

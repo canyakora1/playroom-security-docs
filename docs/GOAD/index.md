@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
-- ![GOAD](../assets/images/GOAD/goad.png) :octicons-arrow-right-24: __[GOAD: Overview](index.md)__
+- ![GOAD](../assets/images/GOAD/goad.png) :octicons-arrow-right-24: __[GOAD: Overview](overview.md)__
 - ![GOAD](../assets/images/GOAD/goad.png) :octicons-arrow-right-24: __[GOAD: Enumeration](enumeration.md)__
 - ![GOAD](../assets/images/GOAD/goad.png) :octicons-arrow-right-24: __[GOAD: Installation](installation.md)__
 - ![GOAD](../assets/images/GOAD/goad.png) :octicons-arrow-right-24: __[GOAD: SevenKingdoms.local](sevenKingdoms.md)__
