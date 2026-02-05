@@ -88,9 +88,9 @@ theme:
   font:
     text: Roboto
     code: Roboto Mono
-  favicon: assets/favicon.png
+  favicon: assets/favicon.ico
   icon:
-    logo: logo
+    logo: assets/play-sec.png
 
 # Plugins
 plugins:
@@ -133,6 +133,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/canyakora1
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@dcyberguy6
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/chinedu-anyakora-32025294/
     - icon: fontawesome/brands/aws
       link: https://playroom-cloudsec.com
     - icon: fontawesome/brands/x-twitter
