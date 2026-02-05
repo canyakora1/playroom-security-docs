@@ -90,7 +90,7 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.ico
   icon:
-    logo: assets/play-sec.png
+    logo: 
 
 # Plugins
 plugins:
