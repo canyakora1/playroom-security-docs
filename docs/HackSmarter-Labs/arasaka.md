@@ -1,5 +1,5 @@
 # Arasaka
-![arasaka](../assets/images/arasaka-pic.png)
+![arasaka](../assets/images/HSM/arasaka-pic.png)
 
 ??? info 
     Author: Dcyberguy
@@ -148,7 +148,7 @@ LDAP        10.1.81.88      389    DC01             Compressing output into /hom
 
 Faraday user has not `outbound Object Control`. This is a dead-end
 
-![arasaka](../assets/images/arasaka.png)
+![arasaka](../assets/images/HSM/arasaka.png)
 
 ### Kerberoasting
 
@@ -183,7 +183,7 @@ Session completed.
 
 `ALT.SVC` has `generic.all` over `YORINOBU`. So I can change his password
 
-![arasaka](../assets/images/arasaka-1.png)
+![arasaka](../assets/images/HSM/arasaka-1.png)
 
 He also has access to the Windows Remote Services
 
@@ -200,7 +200,7 @@ WINRM       10.1.81.88      5985   DC01             [+] hacksmarter.local\yorino
 
 Looking at `Bloodhound` The Yorinobu has `Generic-Write` over `Soulkiller.svc` user account, which would allow me do a `targetedkerberberoast` and dump the `Soulkiller.svc` password hash
 
-![arasaka](../assets/images/arasaka-2.png)
+![arasaka](../assets/images/HSM/arasaka-2.png)
 
 ```jsx
 targetedKerberoast git:(main) ./targetedKerberoast.py -v -d 'HACKSMARTER.local' -u 'yorinobu' -p 'Valentino1@'
@@ -383,7 +383,7 @@ Certipy v4.8.2 - by Oliver Lyak (ly4k)
 
 Since both the Administrator and the_emperor are Administrator’s, he would have the permissions to read the root.txt file
 
-![arasaka](../assets/images/arasaka-3.png)
+![arasaka](../assets/images/HSM/arasaka-3.png)
 
 ```shell
 *Evil-WinRM* PS C:\Users\the_emperor\Desktop> cd ..

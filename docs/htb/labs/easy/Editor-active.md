@@ -52,13 +52,13 @@ Nmap done: 1 IP address (1 host up) scanned in 9.36 seconds
 Discovered two web services, one on port 80 and another on port 8080. The one on port 8080 seems to be running XWiki.
 ### Port 80
 Navigating to the web page, we see a landing page for "Editor - SimplistCode Pro".
-![image](images/editor-1.png)
+![image](../../../assets/images/HTB/editor-1.png)
 
 Tried some common paths, but nothing interesting was found.
 ### Port 8080
 Navigating to the web page, we see an XWiki instance.
 
-![image](images/editor-1.png)
+![image](../../../assets/images/HTB/editor-1.png)
 
 #### Subdomain Enumeration
 ```bash

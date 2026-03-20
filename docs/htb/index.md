@@ -2,12 +2,36 @@
 title: Hack The Box Lab Notes
 ---
 
-## Easy Boxes
 <div class="grid cards" markdown>
 
-- ![Bastion](../assets/images/HTB/Bastion.PNG) [Bastion](../htb/labs/easy/bastion-retire.md)
-- ![Forest](../assets/images/HTB/forest.PNG) [Forest](../htb/labs/easy/forest-retire.md)
-- ![Cicada](../assets/images/HTB/Cicada.PNG) [Cicada](../htb/labs/easy/cicada-retire.md)
-- ![Editor](../assets/images/HTB/Editor.PNG) [Editor](../htb/labs/easy/editor-retire.md)
+=== "Easy Boxes"
+
+    - :simple-hackthebox: __[THM-Labs: Polution]()__
+    - :simple-hackthebox: __[THM-Lab: Arasaka]()__
+    - :simple-hackthebox: __[THM-Labs: Slayer]()__
+    - :simple-hackthebox: __[THM-Labs: Welcome]()__
+    - :simple-hackthebox: __[THM-Labs: BuildingMagic]()__
+    - :simple-hackthebox: __[THM-Labs: Verbose]()__
+    - :simple-hackthebox: __[THM-Labs: Ascension]()__
+    
+
+
+=== "Medium Boxes"
+
+    - :simple-hackthebox: __[THM-Labs: ShareThePain]()__
+    - :simple-hackthebox: __[THM-Labs: Sysco]()__
+    
+
+
+=== "Hard Boxes"
+
+    - :simple-hackthebox: __[THM-Labs: Polution]()__
+
+
+=== "AWS Machines"
+
+    - :simple-hackthebox: __[THM-Labs: SNS-Secret]()__
+  
+
 
 </div>

@@ -1,13 +1,35 @@
-# Hacksmarter Labs
+# __**Hacksmarter Labs**__
 
 <div class="grid cards" markdown>
 
-- ![HSM-Labs](../assets/images/arasaka-pic.png) :octicons-arrow-right-24: __[HSM-Lab: Arasaka](arasaka.md)__
-- ![HSM-Labs](../assets/images/ascension.png) :octicons-arrow-right-24: __[HSM-Labs: Ascension](./ascension.md)__
-- ![HSM-Labs](../assets/images/slayer.png) :octicons-arrow-right-24: __[HSM-Labs: Slayer](slayer.md)__
-- ![HSM-Labs](../assets/images/welcome.png) :octicons-arrow-right-24: __[HSM-Labs: Welcome](welcome.md)__
-- ![HSM-Labs](../assets/images/HSM/BuildingMagic.png) :octicons-arrow-right-24: __[HSM-Labs: BuildingMagic](buildingmagic.md)__
+=== "Easy Boxes"
 
+    - :simple-hackclub: __[HSM-Labs: Polution](Polution.md)__
+    - :simple-hackclub: __[HSM-Lab: Arasaka](arasaka.md)__
+    - :simple-hackclub: __[HSM-Labs: Slayer](slayer.md)__
+    - :simple-hackclub: __[HSM-Labs: Welcome](welcome.md)__
+    - :simple-hackclub: __[HSM-Labs: BuildingMagic](buildingmagic.md)__
+    - :simple-hackclub: __[HSM-Labs: Verbose](Verbose.md)__
+    - :simple-hackclub: __[HSM-Labs: Ascension](./ascension.md)__
+    
+
+
+=== "Medium Boxes"
+
+    - :simple-hackclub: __[HSM-Labs: ShareThePain](ShareThePain.md)__
+    - :simple-hackclub: __[HSM-Labs: Sysco](Sysco.md)__
+    
+
+
+=== "Hard Boxes"
+
+    - :simple-hackclub: __[HSM-Labs: Polution](Polution.md)__
+
+
+=== "AWS Machines"
+
+    - :simple-hackclub: __[HSM-Labs: SNS-Secret](sns-secret.md)__
+  
 
 
 </div>

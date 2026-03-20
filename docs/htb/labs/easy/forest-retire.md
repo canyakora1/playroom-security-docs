@@ -271,7 +271,7 @@ The data collected by SharpHound is then imported into the BloodHound GUI for an
 Import all the ``.json`` file to Bloodhound
 Go to the ``Analysis`` Tab and click ``Shortest Paths to High Value Targets``
 
-![forest-1](../../../assets/images/forest-1.png)
+![forest-1](../../../assets/images/HTB/forest-1.png)
 
 We can see that the ``EXCHANGE WINDOWS PERMISSIONS`` Group has ``WriteDacl`` to the htb.local
 
@@ -304,7 +304,7 @@ A user with WriteDACL permissions on the domain root has a very powerful privile
 
 This grants you full administrative control over the domain.   
 
-![forest-2](../../../assets/images/forest-2.png)
+![forest-2](../../../assets/images/HTB/forest-2.png)
 
 The above commands created a new user ``Bob`` and added it to the ``Exchange Windows Permissions`` groups
 
@@ -324,7 +324,7 @@ After inporting ``PowerView.ps1`` Run the below commands to add the New users Ob
 ```
 Now we can now run ``SecretDump`` to dump all the Domain Credentials
 
-![forest-3](../../../assets/images/forest-3.png)
+![forest-3](../../../assets/images/HTB/forest-3.png)
 
 Lets crack the ``Administrator`` password hash
 ```r
@@ -339,7 +339,7 @@ htb.local\Administrator:500:aad3b435b51404eeaad3b435b51404ee:32693b11e6aa90eb43d
 
 Another Option is to run ``impacket-psexec`` and use the hash of the administrator and get an interactive shell
 
-![forest-4](../../../assets/images/forest-4.png)
+![forest-4](../../../assets/images/HTB/forest-4.png)
 
 Now we have full control of the machine, we can read the user.txt and root.txt file
 

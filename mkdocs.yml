@@ -65,7 +65,7 @@ theme:
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
+    - toc.integrate
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -87,7 +87,7 @@ theme:
         name: Switch to system preference
   font:
     text: Roboto
-    code: Roboto Mono
+    code: Cascadia Code
   favicon: assets/favicon.ico
   icon:
     logo: 
@@ -98,8 +98,7 @@ plugins:
   - glightbox
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify:
-      minify_html: true
+ 
 
 # Hooks
 hooks:
@@ -312,9 +311,13 @@ nav:
       - HackSmarter-Labs/arasaka.md
       - HackSmarter-Labs/ascension.md
       - HackSmarter-Labs/buildingmagic.md
+      - HackSmarter-Labs/Sysco.md
+      - HackSmarter-Labs/Polution.md
+      - HackSmarter-Labs/ShareThePain.md
+      - HackSmarter-Labs/sns-secret.md
 
   - PwnLabs:
-       - PwnLabs/index.md
+      - PwnLabs/index.md
 
   - Donations:
       - Donations/index.md

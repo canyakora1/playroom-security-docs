@@ -111,7 +111,7 @@ smb: \> exit
 I will use my local windows hacking machine to read the contents of the ``WindowsImageBackup`` file.
 
 
-![bastion-1](../../../assets/images/bastion-1.png)
+![bastion-1](../../../assets/images/HTB/bastion-1.png)
 
 To crack the DB we need the SAM and SYSTEM hives. They are located at ``C:\WIndows\System32\config\SAM and C:\Windows\System32\config\SYSTEM.``
 
@@ -134,7 +134,7 @@ L4mpje:1000:aad3b435b51404eeaad3b435b51404ee:26112010952d963c8dc4217daec986d9:::
 
 If we take the NTLM hash to ``Crackstation`` we get: ``bureaulampje``
 
-![bastion-2](../../../assets/images/bastion-2.png)
+![bastion-2](../../../assets/images/HTB/bastion-2.png)
 
 ## Getting a Shell
 Using ``SSH`` to get a shell on the box.
@@ -227,12 +227,12 @@ confCons.xml
 
 Now navigate to the confCons.xml file and import it. Once it’s imported go to Tools > External Tools. Then right-click in the white space and choose New External Tool. Next, in the External Tools Properties, fill in a Display Name, Filename and some arguments, with Password lookup,
 
-![bastion-3](../../../assets/images/bastion-3.png)
+![bastion-3](../../../assets/images/HTB/bastion-3.png)
 
 Now right click on DC and click on Tools > New External Tool name
 A prompt should appear above which the password is echoed.
 
-![bastion-4](../../../assets/images/bastion-4.png)
+![bastion-4](../../../assets/images/HTB/bastion-4.png)
 
 Now that we can have the Administrator's password. Let's login as Administrator using SSH.
 
