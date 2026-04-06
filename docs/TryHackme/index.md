@@ -4,32 +4,25 @@
 
 === "Easy Boxes"
 
-    - :simple-tryhackme: __[THM-Labs: Polution]()__
-    - :simple-tryhackme: __[THM-Lab: Arasaka]()__
-    - :simple-tryhackme: __[THM-Labs: Slayer]()__
-    - :simple-tryhackme: __[THM-Labs: Welcome]()__
-    - :simple-tryhackme: __[THM-Labs: BuildingMagic]()__
-    - :simple-tryhackme: __[THM-Labs: Verbose]()__
-    - :simple-tryhackme: __[THM-Labs: Ascension]()__
-    
-
+    - :simple-tryhackme: THM-Labs: Polution (coming soon)
+    - :simple-tryhackme: THM-Lab: Arasaka (coming soon)
+    - :simple-tryhackme: THM-Labs: Slayer (coming soon)
+    - :simple-tryhackme: THM-Labs: Welcome (coming soon)
+    - :simple-tryhackme: THM-Labs: BuildingMagic (coming soon)
+    - :simple-tryhackme: THM-Labs: Verbose (coming soon)
+    - :simple-tryhackme: THM-Labs: Ascension (coming soon)
 
 === "Medium Boxes"
 
-    - :simple-tryhackme: __[THM-Labs: ShareThePain]()__
-    - :simple-tryhackme: __[THM-Labs: Sysco]()__
-    
-
+    - :simple-tryhackme: THM-Labs: ShareThePain (coming soon)
+    - :simple-tryhackme: THM-Labs: Sysco (coming soon)
 
 === "Hard Boxes"
 
-    - :simple-tryhackme: __[THM-Labs: Polution]()__
-
+    - :simple-tryhackme: THM-Labs: Polution (coming soon)
 
 === "AWS Machines"
 
-    - :simple-tryhackme: __[THM-Labs: SNS-Secret]()__
-  
-
+    - :simple-tryhackme: THM-Labs: SNS-Secret (coming soon)
 
 </div>

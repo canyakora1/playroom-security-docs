@@ -4,23 +4,159 @@
 {% extends "main.html" %}
 {% block tabs %}
   {{ super() }}
-  <style>.md-header{position:initial}.md-main__inner{margin:0}.md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}</style>
+  <style>
+    .md-header { position: initial; }
+    .md-main__inner { margin: 0; }
+    .md-content { display: none; }
+    @media screen and (min-width: 60em) {
+      .md-sidebar--secondary { display: none; }
+    }
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary { display: none; }
+    }
+
+    .mdx-paths {
+      padding: 0 0 3rem;
+    }
+
+    .mdx-hero__image {
+      display: none !important;
+    }
+
+    .mdx-hero,
+    .mdx-hero__content {
+      max-width: 100%;
+    }
+
+    .mdx-paths h2 {
+      margin: 0 0 1rem;
+    }
+
+    .mdx-paths__grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.8rem;
+    }
+
+    .mdx-path {
+      display: block;
+      border: 1px solid var(--md-default-fg-color--lightest);
+      border-radius: 0.5rem;
+      padding: 1rem;
+      text-decoration: none;
+      background: var(--md-default-bg-color);
+      transition: border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .mdx-path:hover {
+      border-color: var(--md-accent-fg-color);
+      transform: translateY(-2px);
+    }
+
+    .mdx-path h3 {
+      margin: 0 0 0.35rem;
+      font-size: 1rem;
+    }
+
+    .mdx-path p {
+      margin: 0;
+      color: var(--md-default-fg-color--light);
+      font-size: 0.75rem;
+      line-height: 1.5;
+    }
+
+    .mdx-path__meta {
+      display: inline-block;
+      margin-top: 0.6rem;
+      font-size: 0.7rem;
+      color: var(--md-accent-fg-color);
+      font-weight: 600;
+    }
+
+    .mdx-use {
+      margin-top: 1rem;
+      border: 1px solid var(--md-default-fg-color--lightest);
+      border-radius: 0.5rem;
+      padding: 1rem;
+      background: var(--md-default-bg-color);
+    }
+
+    .mdx-use h3 {
+      margin-top: 0;
+      margin-bottom: 0.7rem;
+    }
+
+    .mdx-use ol {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+  </style>
   <section class="mdx-container">
     <div class="md-grid md-typeset">
       <div class="mdx-hero">
-        <div class="mdx-hero__image">
-          <img src="assets/images/illustration.png" alt="" width="1659" height="1200" draggable="false">
-        </div>
         <div class="mdx-hero__content">
-          <h1>Cyber security documentation for Ethical hackers</h1>
-          <p>{{ config.site_description }}. Happy Hacking!!.</p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
-            Quick start
+          <h1>Security Engineering Playbooks and Lab Writeups</h1>
+          <p>Practical notes for detection-minded operators. Build repeatable attack paths, validate controls, and sharpen offensive and defensive depth.</p>
+          <a href="{{ 'Pentesting-Notes/index.md' | url }}" title="Pentesting Notes" class="md-button md-button--primary">
+            Open playbooks
           </a>
-          <a href="{{ config.repo_url }}" title="GitHub repository" class="md-button md-button--secondary" target="_blank" rel="noopener">
-            GitHub repository
+          <a href="{{ 'HackSmarter-Labs/index.md' | url }}" title="HackSmarter Labs" class="md-button md-button--secondary">
+            Run lab walkthroughs
+          </a>
+          <a href="{{ config.repo_url }}" title="GitHub repository" class="md-button" target="_blank" rel="noopener">
+            GitHub
+          </a>
+          <a href="#featured-paths" title="Featured Paths" class="md-button md-button--secondary">
+            Featured Paths
           </a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mdx-paths" id="featured-paths">
+    <div class="md-grid md-typeset">
+      <h2>Featured Paths</h2>
+      <div class="mdx-paths__grid">
+        <a class="mdx-path" href="{{ 'Pentesting-Notes/' | url }}">
+          <h3>Security Foundations</h3>
+          <p>Windows, Linux, and cloud attack checklists built for repeatable assessment workflows.</p>
+          <span class="mdx-path__meta">Map attack surface</span>
+        </a>
+        <a class="mdx-path" href="{{ 'GOAD/' | url }}">
+          <h3>GOAD Practice Labs</h3>
+          <p>Game of Active Directory from setup, enumeration through privilege escalation paths.</p>
+          <span class="mdx-path__meta">Exercise AD techniques</span>
+        </a>
+        <a class="mdx-path" href="{{ 'HackSmarter-Labs/' | url }}">
+          <h3>HackSmarter Labs</h3>
+          <p>Command-level machine walkthroughs with recon, exploitation, and post-exploitation coverage.</p>
+          <span class="mdx-path__meta">Validate full attack chains</span>
+        </a>
+        <a class="mdx-path" href="{{ 'htb/labs/' | url }}">
+          <h3>HTB Retired Labs</h3>
+          <p>Retired box walkthroughs documented for reproducibility and skills benchmarking.</p>
+          <span class="mdx-path__meta">Benchmark your process</span>
+        </a>
+        <a class="mdx-path" href="{{ 'blog/' | url }}">
+          <h3>Engineering Notes</h3>
+          <p>Build logs for lab architecture, tooling choices, and hardening-focused implementation details.</p>
+          <span class="mdx-path__meta">Track build decisions</span>
+        </a>
+        <a class="mdx-path" href="{{ 'Donations/' | url }}">
+          <h3>Support the Project</h3>
+          <p>Help sustain ongoing writeups, updated playbooks, and lab maintenance work.</p>
+          <span class="mdx-path__meta">Keep research moving</span>
+        </a>
+      </div>
+
+      <div class="mdx-use">
+        <h3>How to Use This Site</h3>
+        <ol>
+          <li>Select a path based on your objective: recon depth, AD exploitation, or cloud assessment.</li>
+          <li>Start with the playbook, then validate each phase in a corresponding lab walkthrough.</li>
+          <li>Convert commands and findings into your own reusable runbooks and detection checks.</li>
+        </ol>
       </div>
     </div>
   </section>

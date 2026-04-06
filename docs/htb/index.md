@@ -6,32 +6,25 @@ title: Hack The Box Lab Notes
 
 === "Easy Boxes"
 
-    - :simple-hackthebox: __[THM-Labs: Polution]()__
-    - :simple-hackthebox: __[THM-Lab: Arasaka]()__
-    - :simple-hackthebox: __[THM-Labs: Slayer]()__
-    - :simple-hackthebox: __[THM-Labs: Welcome]()__
-    - :simple-hackthebox: __[THM-Labs: BuildingMagic]()__
-    - :simple-hackthebox: __[THM-Labs: Verbose]()__
-    - :simple-hackthebox: __[THM-Labs: Ascension]()__
-    
-
+    - :simple-hackthebox: HTB-Labs: Polution (coming soon)
+    - :simple-hackthebox: HTB-Lab: Arasaka (coming soon)
+    - :simple-hackthebox: HTB-Labs: Slayer (coming soon)
+    - :simple-hackthebox: HTB-Labs: Welcome (coming soon)
+    - :simple-hackthebox: HTB-Labs: BuildingMagic (coming soon)
+    - :simple-hackthebox: HTB-Labs: Verbose (coming soon)
+    - :simple-hackthebox: HTB-Labs: Ascension (coming soon)
 
 === "Medium Boxes"
 
-    - :simple-hackthebox: __[THM-Labs: ShareThePain]()__
-    - :simple-hackthebox: __[THM-Labs: Sysco]()__
-    
-
+    - :simple-hackthebox: HTB-Labs: ShareThePain (coming soon)
+    - :simple-hackthebox: HTB-Labs: Sysco (coming soon)
 
 === "Hard Boxes"
 
-    - :simple-hackthebox: __[THM-Labs: Polution]()__
-
+    - :simple-hackthebox: HTB-Labs: Polution (coming soon)
 
 === "AWS Machines"
 
-    - :simple-hackthebox: __[THM-Labs: SNS-Secret]()__
-  
-
+    - :simple-hackthebox: HTB-Labs: SNS-Secret (coming soon)
 
 </div>

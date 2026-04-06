@@ -1,8 +1,10 @@
 # List of HTB Labs
 
 ## Easy
-| Lab Name         | Writeup Link                                      |
-|------------------|--------------------------------------------------|
-| Bastion Retire   | [Writeup]()                     |
-| Easy 2           | [Writeup]()                             |
-| Easy 3           | [Writeup]()                           |
+
+| Lab Name       | Writeup Link                      |
+| -------------- | --------------------------------- |
+| Bastion Retire | [Writeup](easy/bastion-retire.md) |
+| Forest Retire  | [Writeup](easy/forest-retire.md)  |
+| Cicada Retire  | [Writeup](easy/cicada-retire.md)  |
+| Editor Active  | [Writeup](easy/Editor-active.md)  |

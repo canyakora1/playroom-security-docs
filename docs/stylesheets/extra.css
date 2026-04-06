@@ -1,6 +1,37 @@
+/* Page title styling with Material theme specificity */
+.md-typeset h1,
+h1 {
+  font-size: 3.2rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 1.5rem !important;
+  margin-top: 0.5rem !important;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  color: #10b981 !important;
+}
+
+/* Brand colors */
 .youtube {
     color: #EE0F0F;
 }
+
 .hackthebox {
   color: #107a33;
+}
+
+/* Section headers */
+.md-typeset h2,
+h2 {
+  font-size: 2.2rem !important;
+  margin-top: 1.8rem !important;
+  margin-bottom: 1rem !important;
+  color: #059669 !important;
+}
+
+/* Subsection headers */
+.md-typeset h3,
+h3 {
+  font-size: 1.5rem !important;
+  margin-top: 1.5rem !important;
+  color: #10b981 !important;
 }
