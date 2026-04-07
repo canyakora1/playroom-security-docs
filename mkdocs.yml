@@ -227,7 +227,6 @@ nav:
         - Pentesting-Notes/Linux/Pentesting/reconnaissance.md
         - Pentesting-Notes/Linux/Pentesting/enumeration.md
         - Pentesting-Notes/Linux/Pentesting/FTP.md
-        - Pentesting-Notes/Linux/Pentesting/LDAP.md
         - Pentesting-Notes/Linux/Pentesting/MySQL.md
         - Pentesting-Notes/Linux/Pentesting/SSH.md
         - Pentesting-Notes/Linux/Pentesting/Privilege-Escalation.md

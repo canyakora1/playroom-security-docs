@@ -1,4 +1,4 @@
-# Notes
+# __**Notes**__
 
 <div class="grid cards" markdown>
 
