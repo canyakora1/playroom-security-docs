@@ -4,13 +4,13 @@
 
 === "Easy Boxes"
 
-    - :simple-tryhackme: THM-Labs: Polution (coming soon)
-    - :simple-tryhackme: THM-Lab: Arasaka (coming soon)
-    - :simple-tryhackme: THM-Labs: Slayer (coming soon)
-    - :simple-tryhackme: THM-Labs: Welcome (coming soon)
-    - :simple-tryhackme: THM-Labs: BuildingMagic (coming soon)
-    - :simple-tryhackme: THM-Labs: Verbose (coming soon)
-    - :simple-tryhackme: THM-Labs: Ascension (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: Polution (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Lab: Arasaka (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: Slayer (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: Welcome (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: BuildingMagic (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: Verbose (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: Ascension (coming soon)
 
 === "Medium Boxes"
 

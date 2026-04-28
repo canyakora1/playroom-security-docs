@@ -73,7 +73,7 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
+      primary: custom
       accent: green
       toggle:
         icon: material/toggle-switch
@@ -81,7 +81,7 @@ theme:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: green
+      accent: teal
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -90,7 +90,9 @@ theme:
     code: Cascadia Code
   favicon: assets/favicon.ico
   icon:
-    logo: 
+    logo:
+extra_css:
+  - stylesheets/extra.css 
 
 # Plugins
 plugins:
@@ -127,8 +129,6 @@ extra:
           note: >- 
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-  extra_css:
-  - stylesheets/extra.css
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/canyakora1
