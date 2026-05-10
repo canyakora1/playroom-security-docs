@@ -265,6 +265,14 @@ nav:
           - htb/labs/easy/bastion-retire.md
           - htb/labs/easy/forest-retire.md
           - htb/labs/easy/cicada-retire.md
+          - htb/labs/easy/Editor-active.md
+          - htb/labs/easy/active.md
+          - htb/labs/easy/cap.md
+          - htb/labs/easy/devel.md
+          - htb/labs/easy/escapetwo.md
+          - htb/labs/easy/greenhorn.md
+          - htb/labs/easy/sea.md
+          - htb/labs/easy/steamcloud.md
   #     - "Medium":
   #       - labs/medium/basic.md
   #       - labs/medium/custom.md

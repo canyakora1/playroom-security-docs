@@ -14,15 +14,15 @@
 
 === "Medium Boxes"
 
-    - :simple-tryhackme: THM-Labs: ShareThePain (coming soon)
-    - :simple-tryhackme: THM-Labs: Sysco (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: ShareThePain (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: Sysco (coming soon)
 
 === "Hard Boxes"
 
-    - :simple-tryhackme: THM-Labs: Polution (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: Polution (coming soon)
 
 === "AWS Machines"
 
-    - :simple-tryhackme: THM-Labs: SNS-Secret (coming soon)
+    - :simple-tryhackme:{.tryhackme} THM-Labs: SNS-Secret (coming soon)
 
 </div>

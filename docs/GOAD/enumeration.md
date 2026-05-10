@@ -34,7 +34,7 @@ VM, run `vagrant status NAME`.
 
 ![image.png](../assets/images/GOAD/GOAD-Overview.png)
 
-Using `nxc` can enumerate briefly what hosts are online, hostname and machine build
+Using `nxc` can enumerate briefly what see hosts that are online, hostname and their machine build.
 
 ```bash
 nxc smb 10.10.10.0/24                                                                                                                                                 ─╯
