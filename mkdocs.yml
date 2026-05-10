@@ -88,9 +88,8 @@ theme:
   font:
     text: Roboto
     code: Cascadia Code
-  favicon: assets/favicon.ico
-  icon:
-    logo:
+  favicon: assets/images/favicon.ico
+  logo: assets/images/play-sec.png
 extra_css:
   - stylesheets/extra.css 
 
