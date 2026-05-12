@@ -113,7 +113,7 @@ extra:
     deprecated: Deprecated
   analytics:
     provider: google
-    property: G-2N2K0SYY1B
+    property: !ENV GOOGLE_ANALYTICS_KEY
     feedback:
       title: Was this page helpful?
       ratings:
