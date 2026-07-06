@@ -4,7 +4,7 @@ h1 {
   font-size: 2.2rem !important;
   font-weight: 700 !important;
   margin-bottom: 1.5rem !important;
-  margin-top: 0.5rem !important;
+  margin-top: 0.5rem;
   letter-spacing: -0.02em;
   line-height: 1.2;
   color: #a81daf !important;
