@@ -74,14 +74,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: custom
-      accent: green
+      accent: deep purple
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: teal
+      accent: deep purple
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
@@ -321,6 +321,11 @@ nav:
       - HackSmarter-Labs/Polution.md
       - HackSmarter-Labs/ShareThePain.md
       - HackSmarter-Labs/sns-secret.md
+      - HackSmarter-Labs/martiniad.md
+      - HackSmarter-Labs/shadowgate.md
+      - HackSmarter-Labs/samurai.md
+      - HackSmarter-Labs/stellarcomms.md
+      
 
   - PwnLabs:
       - PwnLabs/index.md

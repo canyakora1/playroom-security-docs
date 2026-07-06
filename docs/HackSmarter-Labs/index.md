@@ -11,6 +11,10 @@
     - :simple-hackclub: __[HSM-Labs: BuildingMagic](buildingmagic.md)__
     - :simple-hackclub: __[HSM-Labs: Verbose](Verbose.md)__
     - :simple-hackclub: __[HSM-Labs: Ascension](./ascension.md)__
+    - :simple-hackclub: __[HSM-Labs: Martini-AD](./martiniad.md)__
+    - :simple-hackclub: __[HSM-Labs: ShadowGate](./shadowgate.md)__
+    - :simple-hackclub: __[HSM-Labs: Samurai](./samurai.md)__
+
     
 
 
@@ -18,6 +22,7 @@
 
     - :simple-hackclub: __[HSM-Labs: ShareThePain](ShareThePain.md)__
     - :simple-hackclub: __[HSM-Labs: Sysco](Sysco.md)__
+    - :simple-hackclub: __[HSM-Labs: Stellarcomms](./stellarcomms.md)__
     
 
 
